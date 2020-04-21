@@ -5,6 +5,7 @@
   "author": "Otavio Barros <otavio@grupogoon.com.br>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.13.1",
     "@typescript-eslint/eslint-plugin": "2",
     "eslint": "6",
@@ -15,7 +16,12 @@
     "eslint-plugin-standard": "4",
     "git-commit-msg-linter": "^2.4.2",
     "husky": "^4.2.5",
+    "jest": "^25.4.0",
     "lint-staged": "^10.1.6",
+    "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
