@@ -41,6 +41,7 @@
     "test:ci": "yarn test -- --coverage"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fast-glob": "^3.2.2"
   }
 }
